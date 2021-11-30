@@ -1,0 +1,12 @@
+{
+  "extends": "@tsconfig/node12",
+  "exclude": ["node_modules", "dist", "src/stories"],
+  "compilerOptions": {
+    "lib": ["dom"],
+    "jsx": "react",
+    "outDir": "./dist",
+    "baseUrl": "./src",
+    "declaration": true,
+    "esModuleInterop": true
+  }
+}
